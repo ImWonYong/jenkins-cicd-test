@@ -10,4 +10,9 @@ public class TestController {
     public String index() {
         return "Hello human";
     }
+
+    @GetMapping("/test")
+    public String test() {
+        return "Test";
+    }
 }
